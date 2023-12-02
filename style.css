@@ -106,3 +106,100 @@ footer{
     color: white;
     height: 2vh;
 }
+
+
+@media screen and (max-width: 767px) {
+    
+    header{
+        background-color: rgba(245, 245, 245, 0.11);
+        height: 8vh;
+        width: 100vw;
+        justify-content: center;
+        display: flex;
+    }
+    
+    header nav a{
+        font-family: 'Shadows Into Light', cursive;
+        line-height: 8vh;
+        font-size: 16px;
+        padding: 3px;
+        text-decoration: none;
+        color: white;
+        margin: auto;
+        transition-duration: .3s;
+    }
+    
+    nav a:hover{
+    color: rgba(182, 177, 177, 0.76);
+    padding-left: 13px;
+    transition-duration: .3s;
+    }
+    
+    main {
+        font-family: 'Open Sans', sans-serif;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 89vh;
+        width: 100%;
+    }
+    
+    .box{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: auto;
+        height: auto;
+        margin-top: -100px;
+        
+    }
+    
+    .title {
+        font-size: 16px;
+        margin-bottom: 30px;
+        color: #FFF;
+    }
+     
+    .box-input {
+        width: 100%;
+        display: contents;
+        justify-content: center;
+    }
+     
+    .input-url {
+        margin-bottom: 10px;
+        padding: 12px 20px;
+        text-align: center;
+        outline: transparent;
+        width: 80%;
+        border-radius: 50px;
+        font-size: 16px;
+        color: #1E272E;
+    }
+     
+    .btn {
+        margin-bottom: 5px;
+        padding: 15px 20px;
+        width: 250px;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 50px;
+        background-color: rgb(26, 27, 29);
+        font-size: 16px;
+        color: #ffffff;
+    }
+     
+    .btn:hover {
+        transition: .5s;
+        background-color: rgba(15, 107, 150, 0.329)
+    }
+    
+    footer{
+        text-align: center;
+        background-color: rgba(245, 245, 245, 0.11);
+        color: white;
+        height: 3vh;
+    }
+
+}
